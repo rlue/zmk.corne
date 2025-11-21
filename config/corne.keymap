@@ -18,6 +18,8 @@
     flavor = "hold-preferred";
 };
 
+&mt { quick-tap-ms = <120>; };
+
 // Pro-Micro controller + nice!view display: Assign the cs-gpios pin to 16
 
 nice_view_spi: &spi0 { cs-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>; };
